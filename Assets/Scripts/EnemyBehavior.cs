@@ -14,11 +14,14 @@ public class EnemyBehavior : MonoBehaviour {
     void Start () {
         rend = GetComponent<SpriteRenderer>();
         enemyStats = GetComponent<EnemyStats>();
-        enemyStats.flDuration = Random.RandomRange(1.0f, 5.0f);
+        enemyStats.flDuration = Random.Range(1.0f, 5.0f);
         enemyStats.flSpeed = 0.02f;
-        enemyStats.flTimeout = Random.RandomRange(3.0f, 7.0f);
+        //enemyStats.flTimeout = Random.RandomRange(3.0f, 7.0f);
+        enemyStats.flTimeout = 0;
         startTime = Time.time;
         birthtime = Time.time;
+
+        player = GameObject.Find("Player");
     }
 	
 	// Update is called once per frame
@@ -32,7 +35,7 @@ public class EnemyBehavior : MonoBehaviour {
                 //stop flying
                 enemyStats.isFlying = false;
                 startTime = Time.time;
-                Debug.Log("stopping flight");
+               // Debug.Log("stopping flight");
             }
         }
         else
@@ -43,7 +46,7 @@ public class EnemyBehavior : MonoBehaviour {
                 // start flying
                 enemyStats.isFlying = true;
                 startTime = Time.time;
-                Debug.Log("starting flight");
+                //Debug.Log("starting flight towards" + player.transform.position);
             }
         }
         interval = Time.time - startTime;
