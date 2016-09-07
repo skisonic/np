@@ -1,0 +1,671 @@
+fileFormatVersion: 2
+guid: cdec7b21036aa6447905edcc803de56b
+timeCreated: 1473136892
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: 7V6Qj_0
+    21300002: 7V6Qj_1
+    21300004: 7V6Qj_2
+    21300006: 7V6Qj_3
+    21300008: 7V6Qj_4
+    21300010: 7V6Qj_5
+    21300012: 7V6Qj_6
+    21300014: 7V6Qj_7
+    21300016: 7V6Qj_8
+    21300018: 7V6Qj_9
+    21300020: 7V6Qj_10
+    21300022: 7V6Qj_11
+    21300024: 7V6Qj_12
+    21300026: 7V6Qj_13
+    21300028: 7V6Qj_14
+    21300030: 7V6Qj_15
+    21300032: 7V6Qj_16
+    21300034: 7V6Qj_17
+    21300036: 7V6Qj_18
+    21300038: 7V6Qj_19
+    21300040: 7V6Qj_20
+    21300042: 7V6Qj_21
+    21300044: 7V6Qj_22
+    21300046: 7V6Qj_23
+    21300048: 7V6Qj_24
+    21300050: 7V6Qj_25
+    21300052: 7V6Qj_26
+    21300054: 7V6Qj_27
+    21300056: 7V6Qj_28
+    21300058: 7V6Qj_29
+    21300060: 7V6Qj_30
+    21300062: 7V6Qj_31
+    21300064: 7V6Qj_32
+    21300066: 7V6Qj_33
+    21300068: 7V6Qj_34
+    21300070: 7V6Qj_35
+    21300072: 7V6Qj_36
+    21300074: 7V6Qj_37
+    21300076: 7V6Qj_38
+    21300078: 7V6Qj_39
+    21300080: 7V6Qj_40
+    21300082: 7V6Qj_41
+    21300084: 7V6Qj_42
+    21300086: 7V6Qj_43
+    21300088: 7V6Qj_44
+    21300090: 7V6Qj_45
+    21300092: 7V6Qj_46
+    21300094: 7V6Qj_47
+    21300096: 7V6Qj_48
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: 7V6Qj_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 264
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 7V6Qj_1
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 264
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 7V6Qj_2
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 264
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 7V6Qj_3
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 264
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 7V6Qj_4
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 271
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 17}
+        - {x: -17.5, y: 2}
+        - {x: -17.5, y: -17}
+        - {x: 5.5, y: -17}
+        - {x: 17.5, y: -6}
+        - {x: 17.5, y: 17}
+    - name: 7V6Qj_5
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 278
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 7V6Qj_6
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 271
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 7V6Qj_7
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 264
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: -18.5}
+        - {x: 14, y: -18.5}
+        - {x: 17, y: -16.5}
+        - {x: 17, y: 17.5}
+        - {x: 14, y: 18.5}
+        - {x: -13, y: 18.5}
+        - {x: -17, y: 7.5}
+    - name: 7V6Qj_8
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 264
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 7V6Qj_9
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 216
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 7V6Qj_10
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 216
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 7V6Qj_11
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 216
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 7V6Qj_12
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 216
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 7V6Qj_13
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 223
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 17}
+        - {x: -17.5, y: -7}
+        - {x: -6.5, y: -17}
+        - {x: 15.5, y: -17}
+        - {x: 17.5, y: -16}
+        - {x: 17.5, y: 1}
+        - {x: 13.5, y: 12}
+        - {x: 5.5, y: 17}
+    - name: 7V6Qj_14
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 230
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 7V6Qj_15
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 223
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 7V6Qj_16
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 216
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 18.5}
+        - {x: -17, y: -18.5}
+        - {x: 17, y: -18.5}
+        - {x: 17, y: 15.5}
+        - {x: 14, y: 18.5}
+    - name: 7V6Qj_17
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 216
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 7V6Qj_18
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 168
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 7V6Qj_19
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 168
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 7V6Qj_20
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 168
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 7V6Qj_21
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 168
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 7V6Qj_22
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 168
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 7V6Qj_23
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 168
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 7V6Qj_24
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 168
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 7V6Qj_25
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 168
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 7V6Qj_26
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 168
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 7V6Qj_27
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 120
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 7V6Qj_28
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 120
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 7V6Qj_29
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 120
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 7V6Qj_30
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 120
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 7V6Qj_31
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 120
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 7V6Qj_32
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 120
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 7V6Qj_33
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 120
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 7V6Qj_34
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 120
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 7V6Qj_35
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 72
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 7V6Qj_36
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 72
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 7V6Qj_37
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 72
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 7V6Qj_38
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 72
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 7V6Qj_39
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 72
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 7V6Qj_40
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 72
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 7V6Qj_41
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 72
+        width: 35
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 7V6Qj_42
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 24
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 7V6Qj_43
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 24
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 7V6Qj_44
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 24
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 7V6Qj_45
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 24
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 7V6Qj_46
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 24
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 7V6Qj_47
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 24
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 7V6Qj_48
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 24
+        width: 35
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
