@@ -18,6 +18,10 @@ public class PlayerMovement : MonoBehaviour {
     public Sprite[] bossSprites;
     private SpriteRenderer rend;
 
+    Rigidbody2D rb2d;
+
+
+    float moveHorizontal, moveVertical;
 	void Awake() {
 		locked = false;
 	}
@@ -29,17 +33,26 @@ public class PlayerMovement : MonoBehaviour {
 
         speed = playerStats.speed;
         maxSpeed = playerStats.maxSpeed;
+        rb2d = GetComponent<Rigidbody2D>();
 	}
 
 	void Update() {
-		HandleMovement();
 	}
 
-	void HandleMovement() {
+    void FixedUpdate()
+    {
+        HandleMovement();
+    }
+    void HandleMovement() {
         speed = playerStats.speed;
         maxSpeed = playerStats.maxSpeed;
 
+        moveHorizontal = Input.GetAxis("Horizontal");
+        moveVertical = Input.GetAxis("Vertical");
+
         if (!locked) {
+
+            /*
             if (Input.GetKey(KeyCode.LeftArrow))
             {
                 //go left
@@ -71,8 +84,17 @@ public class PlayerMovement : MonoBehaviour {
                 transform.position += new Vector3(0.0f, -speed, 0.0f);
                 playerStats.currentDir = PlayerStats.facingDir.down;
             }
+            */
+
 
             //limit the velocity if it's too high or too low
+   
+
+            Vector2 movement = new Vector2(moveHorizontal, moveVertical);
+
+            rb2d.AddForce(movement * speed,ForceMode2D.Force);
+            //rb2d.MovePosition(movement * speed);
+
             if (velocity.x > maxSpeed)
             {
                 velocity.x = maxSpeed;
