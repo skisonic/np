@@ -20,7 +20,7 @@ public class PlayerMovement : MonoBehaviour {
 
     Rigidbody2D rb2d;
 
-
+    private GameObject sword;
     float moveHorizontal, moveVertical;
 	void Awake() {
 		locked = false;
@@ -34,9 +34,12 @@ public class PlayerMovement : MonoBehaviour {
         speed = playerStats.speed;
         maxSpeed = playerStats.maxSpeed;
         rb2d = GetComponent<Rigidbody2D>();
-	}
 
-	void Update() {
+        sword = GameObject.Find("Sword");
+        //sword.transform = gameObject.transform;
+    }
+
+    void Update() {
 	}
 
     void FixedUpdate()
@@ -52,7 +55,7 @@ public class PlayerMovement : MonoBehaviour {
 
         if (!locked) {
 
-            /*
+            
             if (Input.GetKey(KeyCode.LeftArrow))
             {
                 //go left
@@ -60,6 +63,7 @@ public class PlayerMovement : MonoBehaviour {
                 transform.localScale = new Vector3(-1, 1, 1);
                 transform.position += new Vector3 (-speed, 0.0f, 0.0f);
                 playerStats.currentDir = PlayerStats.facingDir.left;
+
             }
             else if (Input.GetKey(KeyCode.RightArrow))
             {
@@ -84,15 +88,15 @@ public class PlayerMovement : MonoBehaviour {
                 transform.position += new Vector3(0.0f, -speed, 0.0f);
                 playerStats.currentDir = PlayerStats.facingDir.down;
             }
-            */
+            
 
 
             //limit the velocity if it's too high or too low
    
 
-            Vector2 movement = new Vector2(moveHorizontal, moveVertical);
+            //Vector2 movement = new Vector2(moveHorizontal, moveVertical);
 
-            rb2d.AddForce(movement * speed,ForceMode2D.Force);
+            //rb2d.AddForce(movement * speed,ForceMode2D.Force);
             //rb2d.MovePosition(movement * speed);
 
             if (velocity.x > maxSpeed)

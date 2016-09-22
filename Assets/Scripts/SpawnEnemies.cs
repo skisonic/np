@@ -5,12 +5,10 @@ public class SpawnEnemies : MonoBehaviour {
 
     public GameObject basicEnemyPrefab;
 
-    // Use this for initialization
     void Start () {
 	
 	}
 	
-	// Update is called once per frame
 	void Update () {
         if (Input.GetKeyDown(KeyCode.A) && GetComponent<SpawnerStats>().type.Equals(SpawnerStats.SpawnerType.red))
         {
@@ -29,7 +27,6 @@ public class SpawnEnemies : MonoBehaviour {
     }
 
     void RedShot() {
-
         GameObject enemy = null;
         EnemyStats enemyStats;
         //red shot
@@ -44,7 +41,6 @@ public class SpawnEnemies : MonoBehaviour {
     }
 
     void GreenShot() {
-
         GameObject enemy = null;
         EnemyStats enemyStats;
         //red shot

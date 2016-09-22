@@ -38,17 +38,17 @@ public class SpawnerStats : MonoBehaviour {
         if (type == SpawnerType.red)
         {
             rend.sprite = spawnerSprites[0];
-            Debug.Log("spawner RED RED");
+            //Debug.Log("spawner RED RED");
         }
         else if (type == SpawnerType.green)
         {
             rend.sprite = spawnerSprites[1];
-            Debug.Log("spawner GREEN GREEN");
+            //Debug.Log("spawner GREEN GREEN");
         }
         else if (type == SpawnerType.blue)
         {
             rend.sprite = spawnerSprites[2];
-            Debug.Log("spawner BLUE BLUE");
+            //Debug.Log("spawner BLUE BLUE");
         }
 
 

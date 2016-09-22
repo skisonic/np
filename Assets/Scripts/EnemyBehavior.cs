@@ -9,6 +9,7 @@ public class EnemyBehavior : MonoBehaviour {
     SpriteRenderer rend;
 
     float birthtime, startTime, interval;
+    float x, y;
 
     // Use this for initialization
     void Start () {
@@ -22,14 +23,30 @@ public class EnemyBehavior : MonoBehaviour {
         birthtime = Time.time;
 
         player = GameObject.Find("Player");
+        x = 1;
+        y = 1;
     }
 	
 	// Update is called once per frame
 	void Update () {
         if (enemyStats.isFlying)
         {
-            //move towards
-            transform.position = Vector2.MoveTowards(transform.position, player.transform.position, enemyStats.flSpeed);
+            //movememnt
+            switch (enemyStats.type)
+            {
+                case EnemyStats.EnemyType.Red:
+                    transform.position = Vector2.MoveTowards(transform.position, player.transform.position, enemyStats.flSpeed);
+                    break;
+                case EnemyStats.EnemyType.Blue:
+                    //transform.position = Mathf.Sin(x) * Vector2.MoveTowards(transform.position, player.transform.position, enemyStats.flSpeed);
+                    transform.position =  Vector2.MoveTowards(transform.position, player.transform.position * Mathf.Sin(x) , enemyStats.flSpeed);
+                    break;
+                case EnemyStats.EnemyType.Green:
+                    transform.position = Vector2.MoveTowards(transform.position, player.transform.position, enemyStats.flSpeed);
+                    break;
+                default:
+                    break;
+            }
             if (interval >= enemyStats.flDuration)
             {
                 //stop flying
@@ -50,5 +67,13 @@ public class EnemyBehavior : MonoBehaviour {
             }
         }
         interval = Time.time - startTime;
+        if (x <= 0)
+        {
+            x = 1;
+        }
+        else
+        {
+            x = x - 1 / 60;
+        }
     }
 }
